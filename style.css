@@ -17,8 +17,8 @@
     color: #666666;
     border-bottom: 2px solid #ff924b;
     border-right: 2px solid #ff924b;
-    border-top: 2px solid #666666;
-    border-left: 2px solid #666666;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
     height: 100px;
     font-size: 65px;
     font-weight: bold;
@@ -33,6 +33,8 @@
     color: #ffffff;
     border-bottom: 2px solid #ff924b;
     border-right: 2px solid #ff924b;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
     font-size: 35px;
     font-weight: bold;
     background-color: #ffccaa;

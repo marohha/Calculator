@@ -6,7 +6,7 @@
 }
 
 .calc {
-    width: 80%;
+    width: 50%;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -26,6 +26,7 @@
 
 .calc-item {
     height: 80px;
+    padding: 0;
 }
 
 .button {
@@ -45,5 +46,10 @@
     .calc-item {
         height: 60px;
         padding: 0;
+    }
+
+    .calc {
+        width: 80%;
+        
     }
 }

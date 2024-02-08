@@ -1,12 +1,12 @@
 .main {
-    background-color: #666666;
+    background: linear-gradient(to bottom right, #ffccaa, #afe9dd);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .calc {
-    border: 3px solid #ff924b;
+    width: 80%;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -16,15 +16,15 @@
     background-color: #ffccaa;
     color: #666666;
     border-bottom: 2px solid #ff924b;
-    margin-bottom: 10px;
+    border-right: 2px solid #ff924b;
+    border-top: 2px solid #666666;
+    border-left: 2px solid #666666;
     height: 100px;
     font-size: 65px;
     font-weight: bold;
 }
 
 .calc-item {
-    margin-right: 10px;
-    margin-bottom: 10px;
     height: 80px;
 }
 
@@ -34,13 +34,15 @@
     border-right: 2px solid #ff924b;
     font-size: 35px;
     font-weight: bold;
-    background: transparent;
+    background-color: #ffccaa;
+}
+
+.button-equally {
+    background-color: #afe9dd;
 }
 
 @media (max-width: 640px) {
     .calc-item {
-        margin-right: 2px;
-        margin-bottom: 2px;
         height: 60px;
         padding: 0;
     }
